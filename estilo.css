@@ -1,0 +1,574 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #ffffff;
+  font-family: arial;
+  margin-top: 5px;
+}
+
+header {
+  width: 900px;
+  height: 140px;
+  margin: 0px auto;
+  background: rgb(0, 0, 77);
+}
+
+header h1 {
+  display: block;
+  float: left;
+}
+
+#nav {
+  list-style: none;
+  padding-left: 0px;
+  display: block;
+  float: left;
+  margin-left: 0px;
+  margin-top: 60px;
+}
+
+#nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  border-bottom: 5px solid #2d46ff;
+}
+
+ul#nav a.ativa {
+  border-bottom: 5px solid #2d46ff;
+}
+
+#nav li {
+  float: left;
+  margin-left: 60px;
+}
+
+#banner {
+  margin-top: 15px;
+  width: 900px;
+  height: 247px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#section {
+  width: 900px;
+  height: 150px;
+  background: rgb(0, 0, 77);
+  margin: 15px auto;
+}
+
+.article {
+  width: 250px;
+  float: left;
+  margin: 5px 24px;
+}
+
+.article h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.article p {
+  padding-top: 5px;
+  font-size: 12px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+#footer {
+  width: 900px;
+  height: 45px;
+  background: rgb(0, 0, 77);
+  float: left;
+  margin: 0 auto;
+  padding-top: 25px;
+  margin-left: 219px;
+  margin-top: 10px;
+}
+
+#footer p {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+
+.form {
+  width: 900px;
+  height: 620px;
+  margin: 0px auto;
+  background: rgb(0, 0, 77);
+  font-size: 12px;
+  justify-content: center;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 800px;
+  margin-left: 40px ;
+}
+
+.form label {
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+  resize: none;  
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: none;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #09d;
+  box-shadow: 0 0 0 3px  rgb(0, 0, 77);
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: #0072c4;
+  color: #ffffff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background:  rgb(52, 52, 168);
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  margin-top: 20px;       
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+  max-width: 220px;
+  height: 142px;
+  margin: 0 auto;
+  display: block;
+  overflow-x: auto;
+  border-spacing: 0;
+  font-style: none;
+}
+
+tbody {
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  vertical-align: bottom;
+}
+
+th:last-child,
+td:last-child {
+  border-right-width: 0;
+}
+
+tr:last-child td {
+  border-bottom-width: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(0, 0, 77);
+}
+  
+a:active {
+  color: rgba(0, 0, 77, 0.492);
+}
+
+.corpo-atissionais {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.corpo-atissionais h1 {
+  padding: 30px 20px 0 20px;
+  color: #6DA7C9;
+  margin-bottom: 0; /* Adicione isso para remover a margem inferior */
+}
+
+.corpo-atissionais p {
+  margin-top: 0; 
+  padding: 0px 20px 0px 20px;
+  color: #54A9BF;
+}
+
+
+.sessao-1, .sessao-2, .sessao-3 {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 20px 20px 20px 20px;
+  max-width: 800px;
+  margin-left: 248px;
+  max-height: 45px;
+}
+
+.at1, .at2, .at3, .at4, .at5, .at6, .at7, .at8, .at9, .at10, .at11, .at12{ 
+  border-radius: 10px; 
+  padding-bottom: 20px;
+  flex: 1; 
+  box-shadow: 0 4px 8px rgb(0, 0, 77);
+  transition: transform 0.2s; 
+  text-align: left;
+  padding: 0px 0px; 
+}
+
+.corpo-atissionais a{
+  text-decoration: none;
+}
+
+.at1, .at2, .at3, .at4, .at5, .at6, .at7, .at8, .at9, .at10, .at11, .at12 p{ 
+  color: #333333;
+  padding: 10px;
+}
+
+.at1, .at2, .at3, .at4, .at5, .at6, .at7, .at8, .at9, .at10, .at11, .at12 a{ 
+  text-decoration: underline;
+  color: #333333;
+}
+
+.titulo{
+  font-weight: 600;
+}
+
+.at1:hover, .at2:hover, .at3:hover, .at4:hover, .at5:hover, .at6:hover, .at7:hover, .at8:hover, .at9:hover, .at10:hover, .at11:hover, .at12:hover {
+  transform: scale(1.05); 
+}
+
+.description-box {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* Mostra a caixa de texto quando o mouse está sobre a imagem */
+#banner:hover .description-box {
+  display: block;
+}
+
+#section2 {
+  width: 900px;
+  height: 370px;
+  background: rgb(0, 0, 77);
+  margin: 15px auto;
+}
+
+.article2 {
+  width: 800px;
+  float: left;
+  margin: 5px 24px;
+}
+
+.article2 p {
+  padding-top: 5px;
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+/* Responsividade para iPhone 14 Pro Max */
+@media only screen and (max-width: 430px) {
+  body {
+    background: #f5f5f5;
+  }
+  
+  header, #banner, #section, .form, #footer {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #nav {
+    display: block;
+    text-align: center;
+  }
+
+  #nav li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .form {
+    height: auto;
+  }
+
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    width: 400px;
+    margin-left: 0px;
+  }
+
+  #footer p {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #section {
+    height: 400px;
+    margin-left: 0px;
+  }
+
+  .article {
+    width: 100px;
+    float: left;
+    margin: 5px 14px;
+    margin-left: 0px;
+  }
+
+  .article2 {
+    width: 350px;
+    float: left;
+    margin: 5px 14px;
+    margin-left: 0px;
+  }
+
+  .corpo-atissionais {
+    width: 100%;
+  }
+
+  .sessao-1, .sessao-2, .sessao-3 {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px 20px 20px 20px;
+    max-width: 800px;
+    margin-left: 0px;
+    max-height: 70px;
+  }
+}
+
+/* Responsividade para Ipad mini */
+@media only screen and (max-width: 768px) {
+  body {
+    background: #f5f5f5;
+  }
+
+  header, #banner, #section, .form, #footer {
+    width: 768px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+
+  #nav {
+    display: block;
+    text-align: center;
+  }
+
+  #nav li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 18px;
+    padding: 0x;
+  }
+
+  .form {
+    height: auto;
+  }
+
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    width: 700px;
+    margin-left: 0px;
+  }
+
+  #footer p {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #section {
+    height: 190px;
+    margin-left: 0px;
+  }
+
+  .article {
+    width: 240px;
+    float: left;
+    margin: 5px 14px;
+    margin-left: 0px;
+  }
+
+  .article2 {
+    width: 810px;
+    float: left;
+    margin: 5px 14px;
+    margin-left: 20px;
+  }
+
+  .corpo-atissionais {
+    width: 100%;
+  }
+
+  .sessao-1, .sessao-2, .sessao-3 {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px 20px 20px 20px;
+    max-width: 800px;
+    margin-left: 0px;
+    max-height: 70px;
+  }
+}
+
+/* Responsividade para iPhone XR */
+@media only screen and (max-width: 414px) {
+  body {
+    background: #f5f5f5;
+  }
+
+  header, #banner, #section, .form, #footer {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #nav {
+    display: block;
+    text-align: center;
+  }
+
+  #nav li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .form {
+    height: auto;
+  }
+
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    width: 400px;
+    margin-left: 0px;
+  }
+
+  #footer p {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #section {
+    height: 400px;
+    margin-left: 0px;
+  }
+
+  .article {
+    width: 100px;
+    float: left;
+    margin: 5px 14px;
+    margin-left: 0px;
+  }
+
+  .article2 {
+    width: 350px;
+    float: left;
+    margin: 5px 14px;
+    margin-left: 0px;
+  }
+
+  .corpo-atissionais {
+    width: 100%;
+  }
+
+  .sessao-1, .sessao-2, .sessao-3 {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px 20px 20px 20px;
+    max-width: 800px;
+    margin-left: 0px;
+    max-height: 70px;
+  }
+}
